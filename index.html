@@ -11,47 +11,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fontawesome.com/">
-
     <link rel="stylesheet" href="./style.css"> <!--Conect this HTML page with CSS page-->
 
     <title>Task_01</title>
+
 </head>
 
 <body>
-
-
     <main class="main-section">
-
         <header class="top">
-            <div class="main-head">
-                <fieldset>
-                    <h1><b>NOTÍCIAS</b></h1>
-                    <style>
-                        .main-head {
-                            background: red;
-
-                        }
-                    </style>
-                </fieldset>
-            </div>
+            <h1>NOTÍCIAS</h1>
             <button class="top__switch" id="switch">
                 <img src="Img\circle-half-stroke-solid.svg" alt="theme color switch icon">
             </button>
-
-
         </header>
         <section>
             <hr>
-            <h1 class="recipe_title">Receita - Cupcake de cenoura proteico</h1>
-            <div class="recipe_video"></div> <iframe width="560" height="315"
-                src="https://www.youtube.com/embed/NWwVIFf0nJ0?si=Ii1nXiQjDKnmD_bz" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe></div>
+            <h2 class="recipe_title">Receita - Cupcake de cenoura proteico</h2>
+            <div class="recipe_video"><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/NWwVIFf0nJ0?si=Ii1nXiQjDKnmD_bz" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
 
-            <h2>Ingredientes</h2>
+            <h3>Ingredientes</h3>
             <div class="ingredientes">
                 <ul>
                     <li>4 ovos</li>
@@ -70,119 +54,88 @@
                             href="https://www.essentialnutrition.com.br/h-i-whey?utm_source=blog&utm_medium=link&utm_campaign=produtos&utm_term=hi&utm_content=receitas-proteicas"
                             target="_blank">Whey Protein </a></li>
                 </ul>
-            </div>
-            <h2>Modo de Preparo</h2>
-            <ol>
-                <li>
-                    <p>Pique a cenoura.</p>
-                </li>
-                <li>
-                    <p>Bata no liquidificador as cenouras, a água, o óleo de coco e os dois ovos.</p>
-                </li>
-                <li>
-                    <p>Adicione a farinha de arroz, a aveia, o Carbolift, o H.I. Whey e bata novamente.</p>
-                </li>
-                <li>Acrescente o fermento e bata em velocidade baixa por pouco tempo, só para incorporá-lo na massa.
-                </li>
-                <li>
-                    <p>Coloque nas forminhas e leve ao forno pré-aquecido a 200° por 30 minutos.</p>
-                </li>
-            </ol>
-
-            <h3> Para visualizar a matéria completa desta e outras receitas, clique em saiba mais
-
-                <br> <br>
-                <div class="button_plus"> <a
-                        href='https://www.essentialnutrition.com.br/conteudos/receitas-proteicas/#4'
-                        target="_blank"><button>Saiba Mais</button></a>
-                </div>
-            </h3>
-
+                <h3>Modo de Preparo</h3>
+                <div class="preparo">
+                    <ol>
+                        <li>Pique a cenoura. </li>
+                        <li>Bata no liquidificador as cenouras, a água, o óleo de coco e os dois ovos. </li>
+                        <li>Adicione a farinha de arroz, a aveia, o Carbolift, o H.I. Whey e bata novamente. </li>
+                        <li>Acrescente o fermento e bata em velocidade baixa por pouco tempo, só para incorporá-lo na
+                            massa.
+                        </li>
+                        <li>Coloque nas forminhas e leve ao forno pré-aquecido a 200° por 30 minutos. </li>
+                    </ol>
+                    <h3> Para visualizar a matéria completa desta e outras receitas, clique em saiba mais
+                        <br> <br>
+                        <div class="button_plus"> <a
+                                href='https://www.essentialnutrition.com.br/conteudos/receitas-proteicas/#4'
+                                target="_blank">Saiba Mais</a>
+                        </div>
+                    </h3>
         </section>
         <br>
-
-        <section>
-            <div><!--table-->
-                <hr><br><br>
-                <table border="5">
-                    <tr>
-                        <th>Produto</th>
-                        <th>Preço Unitário</th>
-                        <th>Quantidade em estoque</th>
-                    </tr>
-                    <tr>
-                        <td>HD SATA 80 GB</td>
-                        <td>R$ 85,00</td>
-                        <td>35</td>
-                    </tr>
-                    <tr>
-                        <td>Pen Drive 2 GB</td>
-                        <td>R$ 15,00</td>
-                        <td>150</td>
-                    </tr>
-                    <tr>
-                        <td>Impressora Laser Colorida</td>
-                        <td>R$ 613,99</td>
-                        <td>18</td>
-                    </tr>
-                    <tr>
-                        <td>Monitor LCD 17'</td>
-                        <td>R$ 309,00</td>
-                        <td>41</td>
-                    </tr>
-                </table>
-            </div>
+        <section><!--table-->
+            <hr><br><br>
+            <table border="5">
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço Unitário</th>
+                    <th>Quantidade em estoque</th>
+                </tr>
+                <tr>
+                    <td>HD SATA 80 GB</td>
+                    <td>R$ 85,00</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Pen Drive 2 GB</td>
+                    <td>R$ 15,00</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>Impressora Laser Colorida</td>
+                    <td>R$ 613,99</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Monitor LCD 17'</td>
+                    <td>R$ 309,00</td>
+                    <td>41</td>
+                </tr>
+            </table>
             <h2></h2>
         </section><br>
         <hr><br><br>
 
         <article>
-            <div class="notice_title">
-                <h1>Putin vence eleição na Rússia e se manterá no poder até 2030</h1>
-            </div>
-            <div class="sub_title">
-                No poder há 24 anos, Putin confirmou favoritismo e terá um quinto mandato como presidente após mudar
-                a Constituição para poder governar até 2036.</div><br><br>
+            <h1 class="notice_title">Putin vence eleição na Rússia e se manterá no poder até 2030</h1>
+            <h2 class="sub_title">
+                "No poder há 24 anos, Putin confirmou favoritismo e terá um quinto mandato como presidente após mudar
+                a Constituição para poder governar até 2036."</h2><br>
             <iframe width="600" height="465"
                 src="https://g1.globo.com/globonews/jornal-globonews/video/eleicoes-na-russia-putin-e-reeleito-com-8787-dos-votos-12443663.ghtml"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-            <h6 class="video-sub">Eleições na Rússia: Putin é reeleito com 87,87% dos votos</h6>
-            <style>
-                .video-sub {
-                    font-weight: normal;
-                }
-            </style>
+            <p class="video-sub">Eleições na Rússia: Putin é reeleito com 87,87% dos votos</p><br>
 
-            <a>Vladimir Putin venceu a eleição russa e se manterá no poder até 2030. A informação foi confirmada pela TV
-                estatal Russia-24.</a>
-
+            <p>Vladimir Putin venceu a eleição russa e se manterá no poder até 2030. A informação foi confirmada pela TV
+                estatal Russia-24.</p>
             <p>Os resultados oficiais preliminares, segundo a TV estatal, confirmaram a vitória de Putin com cerca de
                 88%
                 dos votos, cenário que já havia sido indicado por resultados de pesquisas de boca de urna divulgados até
                 por
                 volta das 15h35 deste domingo (17), quando a votação já havia encerrado.</p>
-
             <p>O favoritismo de Putin foi confirmado após três dias da votação que começou na sexta-feira (15) e
                 terminou
                 neste domingo por volta das 15h (horário de Brasília). Mais de 8 milhões de pessoas votaram online,
                 segundo
                 o órgão.</p>
-
             <p>O atual presidente não tinha outros concorrentes com real chance de vitória. Isso porque os outros três
                 candidatos, todos deputados, são considerados fantoches — eles votaram a favor da guerra na Ucrânia no
                 Parlamento e já fizeram declarações públicas de apoio a Putin.</p>
 
             <hr class="bar-up">
-            <style>
-                .bar-up {
-                    background: red;
-                    height: 5px;
-                    border: none;
-                }
-            </style>
-            </hr>
             <blockquote class="content-blockquote">
 
                 Maior país do mundo em área territorial e com uma população de 141 milhões de habitantes, a Rússia
@@ -191,27 +144,10 @@
                 milhões de
                 eleitores, incluindo ucranianos convocados a votar nos territórios ocupados por tropas russas (leia mais
                 abaixo).</blockquote>
-            <style>
-                .content-blockquote {
-                    font-weight: bold;
-                    font-size: 18px;
-                }
-            </style>
             <hr class="bar-down">
-            <style>
-                .bar-down {
-                    background: red;
-                    height: 5px;
-                    border: none;
-                }
-            </style>
             <div class="button_plus_1"> <a href='https://g1.globo.com/mundo/noticia/2024/03/17/eleicao-na-russia.ghtml'
-                    target="_blank"><button>Leia mais</button></a>
-
-
+                    target="_blank">Leia mais</a>
             </div>
-
-            </hr>
         </article><br><br>
         <hr><br><br>
         <footer class="footer">
@@ -231,7 +167,6 @@
                             E-mail
                             <div class="contato_section1__email">contato@fiap.com.br</div>
                     </p>
-                </div>
             </div>
         </footer>
     </main>

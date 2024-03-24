@@ -29,10 +29,7 @@ body {
     transition: 0.5s;
     background: var(--background-color);
     -webkit-font-smoothing: antialiased;
-}
-
-.main-section {
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -41,7 +38,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgb(253, 0, 0);
 }
+
 .top__switch {
 
     position: absolute;
@@ -57,40 +56,92 @@ body {
     cursor: pointer;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    color: grey
+}
 
 .recipe_title {
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 24px;
 }
 
-.recipe_video{
-        position: flex;
-        height: 10px;
-        width: 10px;
+.recipe_video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.button_plus{
+.preparo, .ingredientes{
+    line-height: 30px;
+}
+
+.button_plus {
     text-align: center;
+    background-color: #e4e4e4;
+    border: 3px solid #999;
+    border-radius: 25px;
+    padding: 10px;
+    width: 15%;
+    margin: auto;    
 }
 
-.sub_title{
+.notice_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.sub_title {
     margin-top: 5px;
     font-size: 14px;
-}
-
-.video-sub{
-    margin-top: 10px;
-    font-size: 12px;
     font-weight: normal;
 }
 
-.button_plus_1{
+.video-sub {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.bar-up {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+.content-blockquote {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bar-down {
+    background: red;
+    height: 5px;
+    border: none;
+}
+
+.button_plus_1 {
     text-align: center;
+    background-color: #e4e4e4;
+    border: 3px solid #999;
+    border-radius: 25px;
+    padding: 10px;
+    width: 15%;
+    margin: auto;
+    color: red
 }
 
 .phone_text {
     position: absolute;
-
     font-weight: 700px;
     font-size: 14px;
     text-decoration: none;
